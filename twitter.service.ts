@@ -6,7 +6,6 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class TwitterService {
-  // We'll assume your Node.js proxy is accessible under the /api route.
   private proxyUrl = '/api/proxy';
 
   constructor(private http: HttpClient) {}
